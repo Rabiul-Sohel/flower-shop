@@ -29,8 +29,8 @@ body {
 }
 .section-area {
   max-width: 1440px;
-  padding: 100px;
-  margin: 0 auto;
+  margin: 100px auto;
+  background: #fff;
 }
 .section-title {
   color: #272727;
@@ -147,6 +147,39 @@ body {
   gap: 250px;
   align-items: center;
 }
-.hot-deal-info{
+.hot-deal-info {
   text-align: center;
+}
+
+.image-area {
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+/* Subscription area style */
+.subscription-area {
+  background: url("Rectangle\ 9.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  margin: 100px auto;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 700px;
+  height: 30px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px;
+  margin: 30px 10px 0 0;
 }
