@@ -1,3 +1,141 @@
-header{
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+}
+/* shared styles */
+body {
+  font-family: "lato", sans-serif;
+}
+.red {
+  color: #e55473;
+}
+.description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  width: 600px;
+  margin: 10px auto;
+  text-align: center;
+}
+.btn {
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 40px;
+  border: none;
+  margin-top: 20px;
+}
+.section-area {
+  max-width: 1440px;
+  padding: 100px;
+  margin: 0 auto;
+}
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+/* nav area style */
+.nav-container {
+  display: flex;
+  background: purple;
+  background: #111010;
+  padding: 20px 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: white;
+  font-size: 45px;
+  font-weight: 800;
+}
+.nav-container ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.nav-container ul a {
+  text-decoration: none;
+  color: #fff;
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* Banner area style */
+.banner-container {
+  display: flex;
+  gap: 100px;
+  background: rgba(229, 84, 115, 0.1);
+  padding: 50px 240px 0;
+  /* height: 100vh; */
+}
+.banner-info-container {
+  width: 50%;
+  margin-top: 40px;
+  align-items: center;
+  display: flex;
+}
+.banner-heading {
+  color: #272727;
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.left {
+  text-align: left;
+}
+.banner-image img {
+  width: 600px;
+  display: block;
+}
+
+/* Feature area style */
+.feature-container {
+  display: flex;
+  gap: 25px;
+  margin-top: 50px;
+}
+.feature-image1 {
+  width: 464px;
+  height: 535px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.feature-image2 {
+  width: 464px;
+  height: 535px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature-image2 img {
+  width: 370px;
+}
+.feature-image3 {
+  width: 450px;
+  height: 535px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.feature-container h5 {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  margin-top: 30px;
 }
