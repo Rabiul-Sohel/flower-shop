@@ -43,31 +43,35 @@ body {
 .nav-container {
   display: flex;
   background: #111010;
-  padding: 30px 200px;
+  background: #fff;
+  padding: 20px 240px;
   justify-content: space-between;
   align-items: center;
 }
 .logo {
-  color: white;
-  font-size: 45px;
-  font-weight: 800;
+  color: #111010;
+  font-size: 90px;
+  font-weight: 900;
+  font-style: italic;
+  font-family: "Dancing Script", sans-serif;
 }
 .nav-container ul {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 25px;
 }
 .nav-container ul a {
   text-decoration: none;
-  color: #fff;
+  color: #111010;
   font-style: italic;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 800;
 }
 
 /* Banner area style */
 .banner-container {
   display: flex;
-  gap: 100px;
+  gap: 80px;
   background: rgba(229, 84, 115, 0.1);
   padding: 50px 240px 0;
 }
@@ -138,6 +142,27 @@ body {
   margin-top: 30px;
 }
 
+/* service area style */
+.service-container {
+  max-width: 1440px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: auto;
+  display: flex;
+  padding: 85px 0;
+  justify-content: center;
+  gap: 120px;
+  text-align: center;
+  margin-bottom: 110px;
+}
+.child-service h6 {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
 /* hot deal area style */
 .hot-deal-area {
   border-radius: 8px;
@@ -173,14 +198,13 @@ body {
 
 input {
   width: 700px;
-  height: 30px;
   border-radius: 8px;
   background: #fff;
   border: none;
   color: rgba(39, 39, 39, 0.6);
   font-size: 16px;
   font-weight: 400;
-  padding: 20px;
+  padding: 25px 15px;
   margin: 30px 10px 0 0;
 }
 
