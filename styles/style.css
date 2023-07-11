@@ -71,9 +71,10 @@ body {
 /* Banner area style */
 .banner-container {
   display: flex;
-  gap: 80px;
+  gap: 50px;
   background: rgba(229, 84, 115, 0.1);
   padding: 50px 240px 0;
+  justify-content: space-between;
 }
 .banner-info-container {
   width: 50%;
@@ -167,8 +168,9 @@ body {
 .hot-deal-area {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
-  padding: 100px 430px;
+  padding: 100px 240px;
   display: flex;
+  justify-content: space-between;
   gap: 250px;
   align-items: center;
 }
