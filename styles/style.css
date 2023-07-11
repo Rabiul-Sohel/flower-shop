@@ -183,3 +183,35 @@ input {
   padding: 20px;
   margin: 30px 10px 0 0;
 }
+
+/* footer area style */
+.footer-area {
+  background: #111010;
+  display: flex;
+  /* min-height: 0px; */
+  justify-content: center;
+  align-items: center;
+  padding: 128px 0;
+}
+.footer-logo {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+.copyright-text {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.footer-text {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  width: 625px;
+  margin-top: 20px;
+}
