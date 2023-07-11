@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
 }
+
+
 /* shared styles */
 body {
   font-family: "lato", sans-serif;
@@ -71,7 +73,6 @@ body {
 /* Banner area style */
 .banner-container {
   display: flex;
-  gap: 50px;
   background: rgba(229, 84, 115, 0.1);
   padding: 50px 240px 0;
   justify-content: space-between;
@@ -171,7 +172,6 @@ body {
   padding: 100px 240px;
   display: flex;
   justify-content: space-between;
-  gap: 250px;
   align-items: center;
 }
 .hot-deal-info {
